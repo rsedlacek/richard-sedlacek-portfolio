@@ -1,0 +1,125 @@
+body {
+    /* Typography Declarations */
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.masthead-intro {
+  margin-bottom: 0.1em;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2em;
+}
+
+.masthead-heading {
+margin-top: -0.2em;
+font-family: "Open Sans", "Helvetica Neue", sans-serif;
+font-weight: bold;
+font-size: 6em;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+}
+
+.intro-section > p,
+.location-section > p,
+.questions-section > p,
+.projects-section > p,
+.mast-footer > p {
+    /* Typography Declarations */
+    font-weight: 300;
+    letter-spacing: 0.02em;
+}
+
+.questions-section > h2 {
+    /* Typography Declarations */
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.masthead-heading,
+.masthead-intro {
+text-align: center;
+text-shadow: 1px 1px 1px #000, 3px 3px 5px white;
+margin-bottom: 0.5em;
+margin-top: -0.2em;
+}
+
+.masthead {
+  background-image: url("http://2014.steelcityruby.org/assets/img/pittsburgh_skyline@2x.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 6em 0;
+  color: orange;
+}
+
+h1 {
+  font-style: normal;
+  text-align: center;
+}
+
+h2 {
+  color:  orange;
+  font-style: normal;
+}
+
+.intro-section,
+.location-section,
+.questions-section,
+.projects-section {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.projects-section {
+    overflow: hidden;
+    padding-bottom: 2rem;
+}
+.projects-section .projects-shots {
+    margin-top: 3rem;
+    padding: none;
+}
+
+.projects-section .projects-shots > li {
+    float: left;
+    padding: 1rem 1rem;
+}
+
+.projects-section .projects-shots h3 {
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+    margin: 2.5rem 0px 1.875rem;
+}
+
+.mast-footer {
+  padding: 2em 0;
+  background-color: #594F49;
+  text-align: center;
+  color: white;
+}
+
+.social > li {
+  display: inline-block;
+}
+
+@media only screen and (max-width: 500px) {
+    .masthead-heading {
+        font-size: 3em;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .masthead {
+        padding: 3em 0;
+    }
+    .masthead-heading {
+        font-size: 3em;
+    }
+}
