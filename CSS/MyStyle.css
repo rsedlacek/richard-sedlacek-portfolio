@@ -46,7 +46,7 @@ margin-top: -0.2em;
 }
 
 .masthead {
-  background-image: url('images/pghskyline.png');
+  background-image: url('../images/pghskyline.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
